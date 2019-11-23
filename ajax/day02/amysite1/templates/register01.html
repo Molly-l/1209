@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/jquery-1.11.3.js"></script>
+{% csrf_token %}
+<p>
+    用户名： <input type="text" id="username">
+    <span id="show"></span>
+</p>
+<p>
+    密码： <input type="text" id="pwd">
+</p>
+<p>
+    <button id="btn">提交</button>
+</p>
+
+
+<script>
+    function checkuname(){
+            //用户名已存在 则返回true
+            //用户名可注册 则返回false
+            var res=false;
+         //1.绑定事件
+            var xhr=createXhr();
+            //2.创建请求
+            var url='/user/check_username?username='  + $('#username').val();
+            //xhr.open('get',url,true)
+                        xhr.open('get',url,false)
+
+            //3.设置回调
+            xhr.onreadystatechange=function(){
+            if (xhr.readyState==4&&xhr.status==200){
+                if(xhr.responseText=='1'){
+                    res=true
+                    $('#show').html('用户名已存在');
+                }else{
+                $('#show').html('ok')
+                }
+                }
+                }
+
+
+            //4.发送请求
+            xhr.send(null);
+            return res
+            }
+
+
+    $(function(){
+    //绑定blur事件
+        $('#username').blur(function(){
+            //1.绑定事件
+            var xhr=createXhr();
+            //2.创建请求
+            var url='/user/check_username?username='  + $('#username').val();
+            xhr.open('get',url,true)
+            //3.设置回调
+            xhr.onreadystatechange=function(){
+            if (xhr.readyState==4&&xhr.status==200){
+                $('#show').html(xhr.responseText);
+                }
+                }
+
+
+            //4.发送请求
+            xhr.send(null);
+            })；
+
+            $(funtion(){
+                $('#username').click(funtion(){
+                    checkuname();
+                    });
+                $('#btn').click(funtion(){
+                    if(checkuname()){
+                    alert('用户名已存在)
+                    }else{
+                     alert('用户名可注册');
+                     }
+                     });
+                     })
+
+
+
+
+
+
+
+          //增加button点击事件，完成注册流程
+         */$('#btn').click(funtion()){
+             var xhr=createXhr();
+             xhr.open('post','/url/register',true)
+             xhr.onreadystatechange=function(){
+                 if (xhr.readyState==4&&xhr.status==200){
+                 alert(xhr.responseText);
+                }
+             }
+             //改请求头
+             xhr.setRequestHeader('Content-Type',)
+             'application/x-www-form-urlencoded');
+
+              var username=$('#username').val();
+              var pwd=$('#pwd').val();
+             var csrf=$("[name='csrfmiddlewaretoken']").val();
+             var params='username'+username+"&pwd="+pwd+'&csrfmiddlewaretoken='+csrf;
+            //4.发送请求
+            xhr.send(params);
+            })；
+             });*/
+</script>
+
+</body>
+</html>

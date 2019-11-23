@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post</title>
+</head>
+<body>
+
+<script src="/static/js/common.js"></script>
+<script src="/static/js/jquery-1.11.3.js"></script>
+<p>
+    用户名： <input type="text" id="username">
+</p>
+<p>
+    <button id="btn"> 提交</button>
+</p>
+{% csrf_token %}
+<script>
+    $(function(){
+        $('#btn').click(function(){
+        //1.绑定事件
+         var xhr=createXhr();
+         //2.创建请求
+         xhr.open('post','/post_xhr_server/',true);
+         //3.设置回调
+         xhr.onreadystatechange=function(){
+            if (xhr.readyState==4&&xhr.status==200){
+                alert(xhr.responseText);}
+         }
+         //改掉请求头中的
+         xhr.setRequestHeader('Content-Type',
+         'application/x-www-form-urlencoded');
+
+         var username=$('#username').val();
+
+         var csrf=$("[name='csrfmiddlewaretoken']").val();
+
+         var params='username='+username+'&csrfmiddlewaretoken='+csrf;
+
+         //4.发送请求
+         xhr.send(params);
+        })
+        })
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+$ python3 manage.py startapp bookstore
+添加模型类并注册app
+from django.db import models
+class Book(models.Model):
+    title = models.CharField("书名", max_length=50, default='')
+    price = models.DecimalField('定价', max_digits=7, decimal_places=2, default=0.0)
+
+3.字段类型
+BooleanField()
+CharField()数据库类型:varchar
+DateField()表示日期
+DateTimeField()表示日期和时间
+DecimalField()：decimal(x,y)使用小数
+
+ImageField()保存图片的路径
+
+
+
+4.字段选项FIELD_OPTIONS
+primary_key：主键
+blank：True时空， 默认值是False 字段是必须填写
+null：
+default：默认值
+db_index：True该列增加索引
+uniqueL：不能重复
+db_column：指定列的名称
+verbose_name：此字段在admin的显示名称
+示例:
+# 创建一个属性,表示用户名称,长度30个字符,必须是唯一的,不能为空,添加索引
+name = models.CharField(max_length=30, unique=True, null=False, db_index=True)
+
+
+
+5.数据库的迁移文件混乱的解决办法
+删除 所有 migrations 里所有的 000?_XXXX.py (__init__.py除外)
+删除 数据表
+sql> drop database mywebdb;
+重新创建 数据表
+sql> create datebase mywebdb default charset...;
+重新生成migrations里所有的 000?_XXXX.py
+python3 manage.py makemigrations
+重新更新数据库
+python3 manage.py migrate
+
+
+
+6.管理器对象models
+class MyModel(models.Model):
+    ...
+MyModel.objects.create(...) # objects 是管理器对象
+
+
+
+7.创建数据对象
+ 增：  方法一:MyModel.objects.create(属性1=值1, 属性2=值1,...)
+        成功: 返回创建好的实体对象      MyModel类名
+        失败: 抛出异常
+      方法二：创建 MyModel 实例对象,并调用 save() 进行保存
+            obj = MyModel(属性=值,属性=值)
+            obj.属性=值
+            obj.save()
+            无返回值,保存成功后,obj会被重新赋值
+
+8.查：
+    ： MyModel.objects.all()
+    作用: 查询MyModel实体中所有的数据
+    等同于：select * from tabel
+        示例:
+        from bookstore import models
+        books = models.Book.objects.all()
+        for book in books:
+            print("书名", book.title, '出版社:', book.pub)
+
+    ：def __str__(self): 方法可以将自定义默认的字符串
+    ：MyModel.objects.values(...)查询部分列的数据并返回
+    ：MyModel.objects.values_list('列1','列2')
+    ：MyModel.objects.order_by('-列','列')排序查询
+        示例:（降序在列前加'-'）
+        from bookstore import models
+        books = models.Book.objects.order_by("price")
+        for book in books:
+        print("书名:", book.title, '定价:', book.price)
+    ：MyModel.objects.filter(属性1=值1, 属性2=值2)根据条件查询多条记录
+            示例:
+            # 查询书中出版社为"清华大学出版社"的图书
+            from bookstore import models
+            books = models.Book.objects.filter(pub="清华大学出版社")
+            for book in books:
+                print("书名:", book.title)
+            ​
+            2. 查询Author实体中id为1并且isActive为True的
+                - authors=Author.objects.filter(id=1,isActive=True)
+
+    字段查找：
+    查询谓词：
+改：
+   1.查:通过 get() 得到要修改的实体对象
+    改:通过 对象.属性 的方式修改数据
+    保存:通过 对象.save() 保存数据
+        如:
+        from bookstore import models
+        abook = models.Book.objects.get(id=10)
+        abook.market_price = "10.5"
+        abook.save()
+    2.通过 QuerySet 批量修改 对应的全部字段
+    直接调用QuerySet的update(属性=值) 实现批量修改
+        如:
+        # 将 id大于3的所有图书价格定为0元
+        books = Book.objects.filter(id__gt=3)
+        books.update(price=0)
+        # 将所有书的零售价定为100元
+        books = Book.objects.all()
+        books.update(market_price=100)
+删：
+  1.删除单个对象
+    查找查询结果对应的一个数据对象
+    调用这个数据对象的delete()方法实现删除
+        示例:
+        try:
+            auth = Author.objects.get(id=1)
+            auth.delete()
+        except:
+            print(删除失败)
+  2.删除查询结果集
+    查找查询结果集中满足条件的全部QuerySet查询集合对象
+    调用查询集合对象的delete()方法实现删除
+        示例:
+        # 删除全部作者中，年龄大于65的全部信息
+        auths = Author.objects.filter(age__gt=65)
+        auths.delete()
+
+聚合查询：
+    1.不带分组聚合
+    2.分组聚合

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试静态文件加载</title>
+</head>
+<body>
+<!--绝对地址-->
+<img src="http://127.0.0.1:8000/static/img/lena.jpg"
+width="100px" height="100px">
+
+<!--相对地址-->
+<img src="/static/img/lena.jpg"
+width="100px" height="100px">
+
+<!--加载标签-->
+{% load static %}
+<img src="{% static 'img/lena.jpg' %}"
+width="100px" height="100px">
+
+
+
+</body>
+</html>

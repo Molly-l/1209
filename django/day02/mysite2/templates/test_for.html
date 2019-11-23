@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test_for</title>
+</head>
+<body>
+    {% for i in dic %}
+        {{% if forloop.first %}}==={% endif %}
+        <p>
+            {{ forloop.counter }} 姓名：{{i}}
+        </p>
+        {{% if forloop.last %}}&&&{% endif %}
+    {% empty %}
+        <p>对不起，没有数据</p>
+    {% endfor %}
+</body>
+</html>

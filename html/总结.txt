@@ -1,0 +1,25 @@
+div:块元素，用来分块
+p:独占一行
+span:文字
+1.form:
+    <form method='get' action="/user/login">
+        姓名:<input type="text" name="uname">
+    </form>
+    form:表单   method:提交的方法   action:需要提交到哪
+2.input:
+    <input type="text" name="aaa"
+     value="222"  placeholder="请输入菜名">
+    type:表单类型-->  text:文本框  password:密码框
+    checkbox:复选框  submit:提交框
+    placeholder:提示信息
+    value:默认值
+3.select:下拉框
+    <select name="bb" id="">
+        <option value="11">11</option>
+        <option value="22" selected>11 </option>
+    </select>
+    option:选项  selected:表示被选中
+4.table:表格  tr:包裹一行 th:单个标题 td:单个内容
+5.多行文本框，cols：列， rows：行
+<textarea name="content" cols="30" \
+                  rows="20"></textarea>

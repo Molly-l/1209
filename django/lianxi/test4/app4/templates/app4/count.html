@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算</title>
+</head>
+<body>
+<form action="count"
+      method="POST">++--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    <p>
+        num1<input type="text" name="num1" value="{{ num1 }}">
+    </p>
+    <p>
+        <select name="op" id="">
+            <option value="add" {% if op1 == 'add' %}selected {% endif %}>+</option>
+            <option value="sub"{% if op1 == 'sub' %}selected {% endif %}>-</option>
+            <option value="mul" {% if op1 == 'mul' %}selected {% endif %}>*</option>
+            <option value="div" {% if op1 == 'div' %}selected {% endif %}>/</option>
+        </select>  
+    </p>
+    <p>
+        num2<input type="text" name="num2" value="{{ num2 }}">
+    </p>
+    sum:{{ num3 }}
+    <input type="submit">
+</form>
+</body>
+</html>

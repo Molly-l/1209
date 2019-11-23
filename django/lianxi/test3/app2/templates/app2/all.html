@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>title</th>
+        <th>price</th>
+
+        <th>op</th>
+    </tr>
+    {% for book in all %}
+    <tr>
+        <td>{{ book.title }}</td>
+        <td>{{ book.price }}</td>
+
+        <td>
+            <a href="/index/update/{{ book.id }}">更新</a>
+            <a href="/index/delete/{{ book.id }}">删除</a>
+
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

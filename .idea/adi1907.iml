@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/mounth001/day15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mounth001/my_project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shopping" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mounth002/dict" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/game_2048" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mounth002/io/HTTPServer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mounth002/io/HTTPServer/webframe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mounth002/io/HTTPServer/httpserver" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ajax/day01/mysite8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/下载/day10" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="Twisted Trial" />
+    <option name="PROJECT_TEST_RUNNER" value="Twisted Trial" />
+  </component>
+</module>

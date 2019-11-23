@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>get_xhr</title>
+</head>
+<body>
+<script src="/static/js/common.js"></script>
+
+<a href="/get_xhr/">普通请求</a>
+<button onclick="getXhr()">xhr的get请求</button>
+<div id="show"></div>
+<input type="text" id="xhr_d">
+<button onclick="getXhrP()">xhr的get请求传参</button>
+<div id="show_p"></div>
+
+
+<script>
+     function getXhrP(){
+    //1.创建xhr
+    var xhr=createXhr();
+    var param = document.getElementById('xhr_d').value;
+    //2.创建请求
+    var url='/get_xhr_server/?param=' + param;
+    xhr.open('get',url,true);
+    //3.设置回调
+    xhr.onreadystatechange=function(){
+        if (xhr.readyState==4 && xhr.status==
+        200){
+        var res=xhr.responseText;
+        var show_p=document.getElementById('show_p');
+        show_p.innerHTML=res;}}
+    //4.发送请求
+    xhr.send(null);}
+
+
+
+
+
+    function getXhr(){
+    //1.创建xhr
+    var xhr=createXhr();
+    //2.创建请求
+    xhr.open('get','/get_xhr_server/',true);
+    //3.设置回调
+    xhr.onreadystatechange=function(){
+        //判断xhr状态 以及 服务端返回状态码
+        if (xhr.readyState==4 && xhr.status==
+        200){
+        var response=xhr.responseText;
+        document.getElementById('show').innerHTML
+        =response;}
+
+
+
+        }
+
+xhr.send(null)
+
+    }
+
+</script>
+
+
+
+
+</body>
+</html>

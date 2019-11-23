@@ -1,0 +1,96 @@
+<script>
+    function checkuname(){
+            //用户名已存在 则返回true; 用户名可注册 返回false
+            var res = false;
+            //1.创建xhr
+            var xhr = createXhr();
+            //2.创建请求
+            var url = '/user/check_username?username=' + $('#username').val();
+            xhr.open('get', url, false)
+
+            //3.设置回调
+            xhr.onreadystatechange = function(){
+                if (xhr.readyState == 4 && xhr.status == 200){
+                    if(xhr.responseText == '1'){
+                        res = true
+                        $('#show').html("用户名已存在");
+                    }else{
+                        $('#show').html("OK");
+                    }
+                }
+            }
+            //4.发送请求
+            xhr.send(null);
+            return res
+    }
+
+    $(function(){
+
+        $('#username').blur(function(){
+            checkuname();
+        });
+
+        $('#btn').click(function(){
+            if(checkuname()){
+                // checkuname return true
+                alert('用户名已存在');
+            }else{
+                // checkuname return false
+                alert('用户名可注册');
+            }
+        });
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    $(function(){
+        $('#btn').click(function(){
+        //1.绑定事件
+         var xhr=createXhr();
+         //2.创建请求
+         xhr.open('post','/post_xhr_server/',true);
+         第一个参数：请求方法，('get','post')
+    第二个参数：要请求的url，post方法要发送的数据不能写在url后面
+    第三个参数：设置异步(true)或同步(false)
+
+         //3.设置回调
+         xhr.onreadystatechange=function(){
+            if (xhr.readyState==4&&xhr.status==200){
+                alert(xhr.responseText);}
+         }
+         //改掉请求头中的Content-Type：固定格式
+         xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+
+         var username=$('#username').val();
+
+            获取csrf_token里面的值
+         var csrf=$("[name='csrfmiddlewaretoken']").val();
+
+            post方法需要将要发送的数据按照格式拼接成字符串，通过send发送
+         var params='username='+username+'&csrfmiddlewaretoken='+csrf;
+
+         //4.发送请求：post方法send中的参数为要发送的字符串
+         xhr.send(params);
+        })
+        })
+
+</script>

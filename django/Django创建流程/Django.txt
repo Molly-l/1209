@@ -1,0 +1,100 @@
+注意事项：1.路径中不能有中文
+2.使用 render() 直接加载并响应模板
+from django.shortcuts import render
+return render(request,'模板文件名', 字典数据)
+
+# 3.用响应对象将转换的字符串内容返回给浏览器
+from django.http import  HttpResponse
+return HttpResponse(html)
+
+4.302 重定向：把当前位置重新导入到另一个url里面
+return HttpResponseRedirect(urls)
+
+1.安装django    $ sudo pip3 install django==1.11.8
+ls查看,cd到创建项目目录下
+2.创建django项目  $ django-admin startproject 项目名称
+3.自己创建数据库
+在pycharm中打开项目文件
+
+4配置Django文件：
+    (1)setting.py:(配置数据库：)
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.mysql',
+                'NAME': 'mysite4',数据库名
+                'USER':'root',#
+                'PASSWORD':'123456',#
+                'HOST':'127.0.0.1',#
+                'PORT':'3306'#}}
+    (1)__init__.py:(配置数据库：)
+        import pymysql
+        pymysql.install_as_MySQLdb()
+    (1)setting.py:(配置模板和创建配置静态文件：)
+       TEMPLATES = [{ 'DIRS': [os.path.join(BASE_DIR,'templates')],#添加模板文件夹},]
+        STATIC_URL = '/static/'#静态文件通过url访问的路径
+        STATICFILES_DIRS=(os.path.join(BASE_DIR,'static'),#静态文件在服务器磁盘上的路径)
+        (测试post>setting.py中: 注释掉 MIDDLEWARE =\
+         [# 'django.middleware.csrf.CsrfViewMiddleware']
+5.创建应用并注册
+    $ cd 项目所在文件夹
+    $ python3 manage.py startapp 应用名称
+    INSTALLED_APPS = ['应用名']
+6.在应用文件夹下创建模板
+    templates>跟应用同名文件夹>名称.html
+7.创建静态文件夹
+    pass
+8.进入项目所在文件夹：    $ cd 项目所在文件夹
+    启动项目：    $ python3 manage.py runserver  #测试用
+                    uwsgi
+9.对数据库进行操作
+    在应用下的models.py里面，创建表结构后执行
+    $ python3 manage.py makemigrations 生成中间文件,并保存在migrations文件夹中
+    $ python3 manage.py migrate  中间文件同步回数据库
+ $ python3 manage.py createsuperuser创建管理员用户
+ $ python3 manage.py shell  进入Python/django交互界面
+10.缓存
+    方法一：在视图View中使用cache
+        from django.views.decorators.cache import cache_page    ​
+        @cache_page(30)  -> 单位s
+        def my_view(request):
+            ...
+    方法二：在模板中使用，在html文件中应用
+        {% load cache %}#加载cache标签
+        {% cache 500 sidebar request.user.username %}
+            .. sidebar for logged in user ..
+        {% endcache %}
+                            {% django代码%}
+                            {{ 引用变量 }}
+
+11.中间件 Middleware
+    def process_request(self, request):
+    def process_view(self,request,callback,callback_args,callback_kwargs):调用视图之前被调用
+    def process_response(self, request, response): 所有响应返回浏览器之前
+12.生成CSV文件
+        Django可直接在视图函数中生成csv文件 并响应给浏览器
+
+13.电子邮件发送
+
+14.项目部署
+uWSGI 网关接口配置 (ubuntu 18.04 配置)：
+    在线安装:$ sudo pip3 install uwsgi
+    配置uWSGI：django-day08
+    步骤：在终端新建 uwsgi.ini--vim uwsgi.ini--粘贴修改配置（i-输入修改-Esc-:wq）
+    启动 uwsgi:
+            $ cd 项目文件夹
+            $ sudo uwsgi --ini 项目文件夹/uwsgi.ini
+            查看服务是否启动：$ ps -aux|grep 'uwsgi' 查看所有名字中包含uwsgi的进程
+    停止 uwsgi:
+            $ cd 项目文件夹
+            $ sudo uwsgi --stop uwsgi.pid  #
+nginx 反向代理配置：
+    ubuntu 下 nginx 安装:$ sudo apt install nginx
+    nginx 配置 :
+            获取超级用户权限$sudo su
+            修改配置文件 $cd /etc/nginx/sites-available
+                       $vim default #用vim打开并编辑此文件
+    nginx服务sud控制：
+            $ sudo /etc/init.d/nginx start|stop|restart|status：开启/停止/重启/查看状态
+    重启uWSGI服务:
+            $ sudo uwsgi --stop uwsgi.pid
+            $ sudo uwsgi --ini 项目文件夹/uwsgi.ini

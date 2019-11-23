@@ -1,0 +1,46 @@
+
+ |  两侧任意的正则表达式即可
+ ^  匹配目标字符串的开头位置
+ $  匹配目标字符串的结尾位置
+ *  匹配前面的字符出现0次或多次
+ +  匹配前面的字符出现1次或多次
+ ?  匹配前面的字符出现0次或1次
+{n} 匹配前面的字符出现n次
+{m,n} 匹配前面的字符出现m-n次
+
+[0-9],[a-z],[A-Z] 表示区间内的任意一个字符
+
+1[0-9]{10}
+kjkjm kjjj
+k\Bj
+匹配字符 .任意字符   [...]匹配三个任意字符
+          [^...]匹配三个任意字符开头
+        \d匹配任意数字字符  \D匹配任意非数字字符
+        \w匹配普通字符    \W匹配非普通字符(普通字符指数字,字母,下划线,汉字)
+        \s匹配空字符    \S匹配非空字符   \t
+匹配重复 * + ? {n} {m,n}
+匹配位置 ^ $ \A开头位置 \Z结尾位置 \b单词边界 \B非单词边界
+其他
+| () \
+"\\$\\d+" 等同于 r"\$\d+"
+
+e.g.
+In : re.findall(r'\(.+?\)',"(abcd)efgh(higk)")
+Out: ['(abcd)', '(higk)']
+
+e.g.
+改变 +号 重复的对象
+In : re.search(r'(ab)+',"ababababab").group()
+Out: 'ababababab'
+
+e.g. 改变 |号 操作对象
+In : re.search(r'(王|李)\w{1,3}',"王者荣耀").group()
+Out: '王者荣耀'
+
+e.g. 获取url协议类型
+re.search(r'(https|http|ftp|file)://\S+',
+          "https://www.baidu.com").group(1)
+
+e.g. 给子组命名为 "pig"
+In : re.search(r'(?P<pig>ab)+',"ababababab").group('pig')
+Out: 'ab'

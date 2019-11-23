@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>邮箱</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>用户id</th>
+        <th>用户名</th>
+        <th>email</th>
+    </tr>
+    {% for email in all_email %}
+        <tr>
+            <td><a href="/index/email_list?name={{ email.username }}\
+            &id={{ email.id }}&email={{ email.email }}">{{
+                email.id }}</a></td>
+            <td>{{ email.username }}</td>
+            <td>{{ email.email }}</td>
+        </tr>
+    {% endfor %}
+
+</table>
+
+
+
+
+</body>
+</html>

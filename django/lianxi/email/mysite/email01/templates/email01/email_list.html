@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email_list</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>用户id</th>
+        <th>用户名</th>
+        <th>email</th>
+    </tr>
+    {% for email in all_email %}
+        <tr>
+            <td><a href="/index/send?name={{ email.name }}\
+            &id={{ email.id }}&email={{ email.adress }}">{{
+                email.id }}</a></td>
+            <td>{{ email.name }}</td>
+            <td>{{ email.adress }}</td>
+        </tr>
+    {% endfor %}
+
+</table>
+</body>
+</html>
