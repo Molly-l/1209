@@ -1,0 +1,32 @@
+原生git＋github
+https://github.com/
+1.去github网站新建一个仓库
+2.在想要生成git仓库的文件夹里面开启终端，执行
+    git init 将此文件夹变成git,每个只需执行一次
+    git add *
+    git commit -m "first commit"
+
+    git remote add origin https://github.com/Molly-l/test.git
+    git push -u origin master
+    输完用户名、密码，刷新网页
+3.有修改要提交
+    git add * 增加到工作区
+    git commit -m "提交总结"：提交到本地仓库
+    git push 推到远程仓库
+    git pull 从远程仓库同步到本地
+
+下载别人的仓库
+在你想要克隆的文件夹下面开启终端，执行
+         git clone https://github.com/azxskaze/aid1907_0814.git
+
+
+Pycharm+git＋github:
+1.登录账号：file-settings-version control-GitHub
+2.创建一个仓库：VCS-improt into version control--Share Project on GitHub
+3.有修改要提交：
+    vcs-commit-写message,用户名--commit/(commit and push,这个不用执行vcs-git-push）
+    vcs-git-push
+    vcs-git pull 从远程仓库同步到本地
+
+
+
