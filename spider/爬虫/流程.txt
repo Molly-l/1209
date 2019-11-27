@@ -1,0 +1,237 @@
+模块：
+
+from urllib import parse #将汉字转换成url编码
+from urllib import request #发送请求模块
+import os
+import re
+import random
+import requests
+from fask_useragent import UserAgent  #UserAgent生成模块
+from lxml import etree #xpath解析模块
+import csv #csv文件格式模块
+from hashlib import md5,sha1,sha256 #hash函数，计算摘要(验证)，任意长的输入消息串变化成固定长的输出串的一种函数
+import pymysql数据持久化
+import pymongo
+from queue import Queue 队列
+from threading import Thread 多线程
+
+.strip()去掉字符串首尾空格
+
+    a='恐惧和'
+    b=parse.quote(a)
+    c=parse.urlencode({'wd':a})
+2.from fask_useragent import UserAgent  #UserAgent生成模块
+
+
+1.拼接url:  url='https://www.baidu.com/s?wd={}&pn={}&oq=ijhujh&ie=utf-8'
+            url01=url.format({}中的参数)
+
+
+2.请求头中的用户代理：headers=({'User-Agent':UserAgent().random})
+
+3.发送请求：
+      方法一：req=request.Requrst(url=url01,headers=headers) #组织请求内容
+            resp=request.urlopen(req) #发送请求
+            html=resp.read().encode() #获取响应内容
+           #code = response.getcode() 返回HTTP响应码
+           #url = response.geturl() 返回实际数据的URL地址
+
+           import requests
+      方法二：
+       get: resp=requests.get(url=url01,headers=self.headers).content.decode('utf-8','ignore')  #组织请求内容并发送
+             resp.encoding = 'utf-8' #设置响应的编码方式                             #'ignore'忽略非法字符，防止报错
+
+             html=resp.text #获取响应内容(网页源代码整个内容)
+            #html = resp.content #获取整个响应的字节串
+            #code = resp.status_code #获取状态码 200/400
+            #code = resp.encoding #获取响应编码方式
+            #url = resp.url 返回实际数据的URL地址
+            #json=resp.json() 如果返回的是json类型数据，可将其转换为python数据类型
+                    (#用异步方式发post请求，一般接收到的是json格式的数据)
+       post: resp=requests.post(url=url01,data=formdata,headers=headers)  #组织请求内容并发送
+                formdata = {
+                "i": word,
+                "from": "AUTO",
+                "to": "AUTO",
+                "salt": salt,
+                "sign": sign,
+                "bv": "57d46cf581e5c43f8109a84cf9227e5e",
+                "doctype": "json",}
+import re
+4.提取有用信息，匹配正则：
+    res = re.compile('正则表达式')
+    re_list=res.findall(html) #按照正则表达式从响应内容中匹配出需要的信息
+5.对re_list存储的方法：
+    1.直接print打印
+    2.存为txt文件
+
+    3.存为csv文件
+    import csv
+        # 单行写入(writerow([]))
+        with open('test.csv','w',newline='') as f:
+            writer = csv.writer(f) #创建csv对象writer，这个对象可以使用csv格式来写f文件
+            writer.writerow(['步惊云','36']) #写入一行，自动换行，元素之间逗号隔开
+
+        # 多行写入(writerows([(),(),()]
+        def save_html(re_list):
+            L = []
+            with open('maoyan.csv','a') as f:
+                writer = csv.writer(f)
+                for film in re_list: #循环从列表中取出每个元素，每个再变成元组放入新列表
+                    t = (
+                        film[0].strip(),  #strip()去掉字符串首尾空格
+                        film[1].strip(),
+                        film[2].strip()[5:15]
+                    )
+                    L.append(t)
+                writer.writerows(L)
+    4.存到mysql数据库中
+
+
+    5.存到mongodb数据库中
+
+
+
+
+
+xpath解析：
+    1、导模块
+    from lxml import etree
+    2、创建解析对象
+    parse_html = etree.HTML(html)
+    3、解析对象调用xpath
+    r_list = parse_html.xpath('xpath表达式')
+
+1、// :从所有节点中查找(包括子节点和后代节点)
+   .//:从本节点中查找
+2、@ :获取属性值
+3.匹配多路径(或)： xpath表达式1 | xpath表达式2
+4.查找id属性值中包含字符串 "car_" 的 li 节点： //li[contains(@id,"car_")]/text()   (/text() :获取节点的文本内容)
+
+
+
+一般为本地js文件加密,刷新页面,找到js文件并分析JS代码
+解析
+浏览器F12开启网络抓包,Network -(all/xhl异步请求/js)-name中找包-Headers -找Form表单数据,分析出变化字段-Search查找字段，点进去-{}格式化输出-再搜索关键词，匹配位置打断点
+(再发一次请求，可显示关键字的值具体是什么)-根据值以及js表达式分析字段的生成方式-去Python中模拟
+
+
+
+
+
+
+requests 模块参数总结：
+1、url
+2、params：必须是get请求中的参数
+        import requests
+        baseurl = 'http://tieba.baidu.com/f?'
+        params = {
+        'kw' : '赵丽颖吧',
+        'pn' : '50'}
+   data:  post请求，form表单
+3、auth：Web客户端验证参数
+        auth = ('tarenacode','code_2013') 需要输入用户名，密码的简单的网站，必须是弹框输入
+
+4、headers
+5、timeout：超时时间
+#设置代理：
+proxies = {
+    'http':'http://309435365:szayclhp@120.26.167.133:16817',#私密代理
+    'https' : 'https://116.21.122.74:808'#普通代理
+    #https比http更安全
+
+
+
+
+基于User-Agent反爬:
+    多个请求随机切换User-Agent
+    1、定义列表/py文件 存放大量User-Agent,使用random.choice()每次随机选择
+    2.使用fake_useragent模块每次访问随机生成User-Agent
+响应内容前端JS做处理反爬:
+    1、html页面中可匹配出内容,程序中匹配结果为空
+    * 响应内容中嵌入js,对页面结构做了一定调整导致,通过查看网页源代码,格式化输出查看结构,更改xpath或
+    者正则测试
+    2、如果数据出不来可考虑更换 IE 的User-Agent尝试,数据返回最标准
+写程序注意:
+    页面请求设置超时时间,并用try捕捉异常,超过指定次数则更换下一个URL地址
+    所抓取任何数据,获取具体数据前先判断是否存在该数据
+增量爬虫:
+    1、数据库中创建指纹表,用来存储每个请求的指纹
+    2、在抓取之前,先到指纹表中确认是否之前抓取过
+
+
+
+
+from queue import Queue 队列
+# 使用
+q = Queue()
+q.put(url) url入队列
+q.get() # 当队列为空时,阻塞
+q.empty() # 判断队列是否为空,True/False
+
+from threading import Thread  #多线程
+# 使用流程
+t = Thread(target=函数名) # 创建线程对象
+t.start() # 创建并启动线程
+t.join() # 阻塞等待回收线程
+# 如何创建多线程
+t_list = []
+for i in range(5):
+t = Thread(target=函数名)
+t_list.append(t)
+t.start()
+for t in t_list:
+t.join()
+
+数据存放到本地的csv文件中
+1、导入模块
+2、打开csv文件
+3、初始化写入对象
+4、写入数据(参数为列表)
+import csv
+with open('film.csv','w') as f:
+writer = csv.writer(f)
+writer.writerow([])
+
+将抓取数据保存到csv文件
+from threading import Lock # 注意多线程写入的线程锁问题
+lock = Lock()
+lock.acquire()# 加锁
+ ‘写python语句’
+lock.release()# 释放锁
+
+
+
+
+selenium+phantomjs/chrome/firefox
+
+from selenium import webdriver
+# 1、创建浏览器对象
+browser = webdriver.Firefox(executable_path='/xxx/geckodriver')
+# 2、输入网址
+browser.get('URL')
+# 3、查找节点
+brower.find_xxxx
+# 4、做对应操作
+element.send_keys('')
+element.click()
+# 5、关闭浏览器
+browser.quit()
+
+
+chromedriver 设置无界面模式
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')
+browser = webdriver.Chrome(options=options)
+
+selenium - 鼠标操作
+from selenium import webdriver
+# 导入鼠标事件类
+from selenium.webdriver import ActionChains
+driver = webdriver.Chrome()
+driver.get('http://www.baidu.com/')
+#移动到 设置,perform()是真正执行操作,必须有
+element = driver.find_element_by_xpath('//*[@id="u1"]/a[8]')
+ActionChains(driver).move_to_element(element).perform()
+#单击,弹出的Ajax元素,根据链接节点的文本内容查找
+driver.find_element_by_link_text('高级搜索').click()

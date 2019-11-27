@@ -80,7 +80,7 @@ MyModel.objects.create(...) # objects 是管理器对象
         books = models.Book.objects.order_by("price")
         for book in books:
         print("书名:", book.title, '定价:', book.price)
-    ：MyModel.objects.filter(属性1=值1, 属性2=值2)根据条件查询多条记录
+    ：MyModel.objects.filter(属性1=值1, 属性2=值2)根据条件查询多条记录，filter返回的是列表，每个元素都是一个对象
             示例:
             # 查询书中出版社为"清华大学出版社"的图书
             from bookstore import models

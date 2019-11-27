@@ -26,6 +26,9 @@ ls查看,cd到创建项目目录下
                 'PASSWORD':'123456',#
                 'HOST':'127.0.0.1',#
                 'PORT':'3306'#}}
+        LANGUAGE_CODE = 'zh-hans'设置为中文
+        TIME_ZONE = 'Asia/Shanghai' 时区
+
     (1)__init__.py:(配置数据库：)
         import pymysql
         pymysql.install_as_MySQLdb()
@@ -52,6 +55,9 @@ ls查看,cd到创建项目目录下
     $ python3 manage.py migrate  中间文件同步回数据库
  $ python3 manage.py createsuperuser创建管理员用户
  $ python3 manage.py shell  进入Python/django交互界面
+ admin.py： from django.contrib import admin
+            from .models import 类名
+            admin.site.register(类名)
 10.缓存
     方法一：在视图View中使用cache
         from django.views.decorators.cache import cache_page    ​
@@ -98,3 +104,8 @@ nginx 反向代理配置：
     重启uWSGI服务:
             $ sudo uwsgi --stop uwsgi.pid
             $ sudo uwsgi --ini 项目文件夹/uwsgi.ini
+
+
+ Django自带管理员界面
+$ python3 manage.py createsuperuser创建管理员用户
+--创建用户名--密码--将获取到网址在浏览器打开登录--admin

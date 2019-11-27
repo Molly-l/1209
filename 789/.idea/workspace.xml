@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f749d860-86a9-42ec-8adf-c2dfc73a5f46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22/流程" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/789.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/xiangmu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/xiangmu/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/xiangmu/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/xiangmu/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/yingyong1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/yingyong1/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/yingyong1/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/yingyong1/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/yingyong1/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/yingyong1/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/yingyong1/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiangmu/yingyong1/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/.idea/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/REDEME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/flask_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/css/comments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/css/login_reglogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/css/m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/5794.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/auicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/author.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/b04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/b05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/banner03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/bi05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/bitbug_favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/blank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/category.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/commentPhoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/comments.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/date.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/dsbz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/dzbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/newsbg03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/page_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/page_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/page_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/page_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/re_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/searchbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/tags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/time.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/toppic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/toppic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/v1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/images/zd01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/js/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/js/jquery.easyfader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/js/scrollReveal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/js/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/static/js/xcConfirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/change_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/gbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/list_bak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/photo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/release.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/client/templates/time.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/.idea/wiki.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/media/avatar/tu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/media/avatar/tu_amdFBYo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/message/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/message/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/message/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/message/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/message/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/message/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/message/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/message/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/message/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/tools/logging_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/topic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/topic/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/topic/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/topic/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/topic/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/topic/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/topic/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/topic/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/topic/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/migrations/0002_userprofile_avatar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/migrations/0003_userprofile_login_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/migrations/0004_userprofile_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/user/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wiki/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wiki/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wiki/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wiki/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wiki/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wtoken/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wtoken/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wtoken/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wtoken/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wtoken/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wtoken/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wtoken/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/max_xiangmu/wiki/wtoken/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/index/migrations/0003_auto_20191030_1711.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-2109-AB17T5A1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-2109-SDK5WUW8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-2114-226C8S26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-27316-F2BUCPRH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-3356-5D1F2KDU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-3356-T4P73D4B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-3877-BXDY6KCU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-435-6RCCRDWH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-435-8829CP99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-4612-95F796WB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-695-F2BSB4DC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/1-270x270-701-CB41CHUW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/imgs/d72b849b461c08d991c265df00a1bfde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/upload/goods/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/upload/goods/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/upload/goods/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/upload/goods/1-270x270-2109-AB17T5A1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/upload/goods/1-270x270-27316-F2BUCPRH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/upload/goods/1-270x270-3356-5D1F2KDU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/upload/goods/1-270x270-419-TPSKW6SP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/upload/goods/1-270x270-430-9RBRWTU9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/upload/goods/1-270x270-435-6RCCRDWH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/xiao_xiangmu/fruit/static/upload/goods/1-270x270-4612-95F796WB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/Django创建流程/zhaocuo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise01/day01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise01/e01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise01/mounth01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../game_2048/bll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../game_2048/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../game_2048/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../game_2048/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linix/命令.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day04/exercise07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day04/homework01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day05/homework01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day06/exercise01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day06/exercise02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day06/exercise04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day06/exercise05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day06/exercise06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day06/homework01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day06/homework02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day07/exercise01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day07/exercise02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day07/exercise03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day10/exercise01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day10/exercise02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day10/homework01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day11/exercise01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day11/exercise02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day11/exercise03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day11/exercise04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day11/homework01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day12/exercise01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day12/exercise02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day12/exercise03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day12/homework01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day13/exercise01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day13/exercise02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day13/exercise03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day13/exercise04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day13/homework01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day13/homework02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/day14/exercise01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/test01/sys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth001/总结.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/day13/re01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/day13/test02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/httpserver/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/httpserver/httpserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/httpserver/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/webframe/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/webframe/static/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/webframe/static/Net.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/webframe/static/RE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/webframe/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/webframe/static/project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/webframe/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/webframe/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/HTTPServer/webframe/webframe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/IO多路复用/epoll_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/IO多路复用/poll_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/IO多路复用/select_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/IO多路复用/tcp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/chat/chat_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/chat/chat_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/dict/dict_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/dict/dict_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/dict/dict_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/fork/fork1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/fork/get_pid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/ftp/ftp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/ftp/ftp_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/http/httpserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/http/static/Net.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/http/static/RE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/http/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/pool/pool_exe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/process/myprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/process/process2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/tcp/tcp_client_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/tcp/tcp_server_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/thread/myThread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/thread/thread1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/udp/udp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/udp/udp_sever.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/协程/async.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/协程/gevent_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/协程/tcp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/多线程和多进程并发/fork_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/多线程和多进程并发/process_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/多线程和多进程并发/tcp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/多线程和多进程并发/thread_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/概念.txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/线程同步互斥/dead_lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/线程同步互斥/thread_lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/线程同步互斥/trhead_event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/进程间通信IPC/array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/进程间通信IPC/pipe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/进程间通信IPC/queue_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/进程间通信IPC/sem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/进程间通信IPC/value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth002/io/进程间通信IPC/寻找质数计算时间.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth003/day02/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mounth003/day12/exe01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/.idea/test_celery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/tasks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/tasks_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/.idea/test_celery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/test_celery/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/test_celery/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/test_celery/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/test_celery/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/test_celery/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/user/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/user/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/user/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/user/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/user/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/user/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/test_celery/test_celery/user/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/01_bitmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/01_pyredis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/02_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/03_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/04_consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/05_process_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/day02/03_hash_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/day02/04_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/day03/01_musicrank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/day03/02_mobilerank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/redis.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/01_urlopen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/03_Request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/04_parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/06_tiebaspider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/07_tiebaspider_fake_useragent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/08_greed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/film.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/useragents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/有道.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/美团 1页" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/美团 2页" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day01/赵丽颖.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day02/01_maoyan_print.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day02/02_csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day02/06_mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day02/08_filmsky.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day02/09_filmsky_incr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day02/10_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day02/11_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day03/01_xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day03/02_maoyan_xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day03/03_lianjiaspider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day03/04_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day03/04_tiebaspider_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day03/05_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day03/赵丽颖吧-第2页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day03/赵丽颖吧-第3页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day04/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day04/01_tiebatu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day04/02_proxies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day04/05_proxypool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day04/06_proxyip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day04/07_youdaospider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day04/aa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day04/headers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day04/proxyip.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day05/01_mzb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day05/02_doubanspider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day05/03_dump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day05/04_xiaomi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day05/04_xiaomispider_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day05/05_xiaomispider_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day05/douban.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day05/gov.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day06/01_tencentspider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day06/02_mzb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day07/02_mzb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day07/baidu/baidu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day07/baidu/baidu/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day07/baidu/baidu/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day07/baidu/baidu/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day07/baidu/baidu/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day07/baidu/baidu/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day07/baidu/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/.idea/day08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Baidu/Baidu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Baidu/Baidu/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Baidu/Baidu/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Baidu/Baidu/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Baidu/Baidu/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Baidu/Baidu/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Baidu/Baidu/spiders/baidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Baidu/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Baidu/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Maoyan/Maoyan/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Maoyan/Maoyan/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Maoyan/Maoyan/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Maoyan/Maoyan/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Maoyan/Maoyan/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Maoyan/Maoyan/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Maoyan/Maoyan/spiders/maoyan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Maoyan/Maoyan/spiders/maoyan2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Maoyan/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/Maoyan/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/daomu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/daomu/daomu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/daomu/daomu/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/daomu/daomu/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/daomu/daomu/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/daomu/daomu/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/daomu/daomu/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/daomu/daomu/spiders/daomu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day08/daomu/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/.idea/day09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/So/So/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/So/So/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/So/So/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/So/So/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/So/So/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/So/So/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/So/So/spiders/so.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/So/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/So/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Tencent/Tencent/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Tencent/Tencent/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Tencent/Tencent/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Tencent/Tencent/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Tencent/Tencent/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Tencent/Tencent/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Tencent/Tencent/spiders/tencent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Tencent/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Tencent/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Youdao/Youdao/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Youdao/Youdao/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Youdao/Youdao/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Youdao/Youdao/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Youdao/Youdao/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Youdao/Youdao/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Youdao/Youdao/spiders/youdao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/day09/Youdao/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/爬虫/流程.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django/Django创建流程/Django.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../django/Django创建流程/Django.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django/Django创建流程/总结-django数据库映射（ORM）.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../django/Django创建流程/总结-django数据库映射（ORM）.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mounth002/day16" beforeDir="false" afterPath="$PROJECT_DIR$/../mounth002/day16" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="270" />
+    <option name="y" value="117" />
+    <option name="width" value="1151" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="789" type="b2602c69:ProjectViewProjectNode" />
+              <item name="789" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="789" type="b2602c69:ProjectViewProjectNode" />
+              <item name="789" type="462c0819:PsiDirectoryNode" />
+              <item name="xiangmu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="789" type="b2602c69:ProjectViewProjectNode" />
+              <item name="789" type="462c0819:PsiDirectoryNode" />
+              <item name="xiangmu" type="462c0819:PsiDirectoryNode" />
+              <item name="xiangmu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f749d860-86a9-42ec-8adf-c2dfc73a5f46" name="Default Changelist" comment="" />
+      <created>1574731634372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574731634372</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="270" y="117" width="1151" height="744" extended-state="1" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="DB Browser" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+</project>

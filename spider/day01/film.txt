@@ -1,0 +1,463 @@
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+霸王别姬" data-act="boarditem-click" data-val="{movieId:1203}">霸王别姬</a></p>
+        <p class="star">
+                主演：张国荣,张丰毅,巩俐
+        </p>
+<p class="releasetime">上映时间：1993-07-26</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-2">2</i>
+    <a href="/films/1297" title="肖申克的救赎" class="image-link" data-act="boarditem-click" data-val="{movieId:1297}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/283292171619cdfd5b240c8fd093f1eb255670.jpg@160w_220h_1e_1c" alt="肖申克的救赎" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/1297" title="肖申克的救赎" data-act="boarditem-click" data-val="{movieId:1297}">肖申克的救赎</a></p>
+        <p class="star">
+                主演：蒂姆·罗宾斯,摩根·弗里曼,鲍勃·冈顿
+        </p>
+<p class="releasetime">上映时间：1994-09-10(加拿大)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-3">3</i>
+    <a href="/films/2641" title="罗马假日" class="image-link" data-act="boarditem-click" data-val="{movieId:2641}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/289f98ceaa8a0ae737d3dc01cd05ab052213631.jpg@160w_220h_1e_1c" alt="罗马假日" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/2641" title="罗马假日" data-act="boarditem-click" data-val="{movieId:2641}">罗马假日</a></p>
+        <p class="star">
+                主演：格利高里·派克,奥黛丽·赫本,埃迪·艾伯特
+        </p>
+<p class="releasetime">上映时间：1953-09-02(美国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">1</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-4">4</i>
+    <a href="/films/4055" title="这个杀手不太冷" class="image-link" data-act="boarditem-click" data-val="{movieId:4055}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p1.meituan.net/movie/6bea9af4524dfbd0b668eaa7e187c3df767253.jpg@160w_220h_1e_1c" alt="这个杀手不太冷" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/4055" title="这个杀手不太冷" data-act="boarditem-click" data-val="{movieId:4055}">这个杀手不太冷</a></p>
+        <p class="star">
+                主演：让·雷诺,加里·奥德曼,娜塔莉·波特曼
+        </p>
+<p class="releasetime">上映时间：1994-09-14(法国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-5">5</i>
+    <a href="/films/267" title="泰坦尼克号" class="image-link" data-act="boarditem-click" data-val="{movieId:267}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p1.meituan.net/movie/b607fba7513e7f15eab170aac1e1400d878112.jpg@160w_220h_1e_1c" alt="泰坦尼克号" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/267" title="泰坦尼克号" data-act="boarditem-click" data-val="{movieId:267}">泰坦尼克号</a></p>
+        <p class="star">
+                主演：莱昂纳多·迪卡普里奥,凯特·温丝莱特,比利·赞恩
+        </p>
+<p class="releasetime">上映时间：1998-04-03</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-6">6</i>
+    <a href="/films/837" title="唐伯虎点秋香" class="image-link" data-act="boarditem-click" data-val="{movieId:837}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/da64660f82b98cdc1b8a3804e69609e041108.jpg@160w_220h_1e_1c" alt="唐伯虎点秋香" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/837" title="唐伯虎点秋香" data-act="boarditem-click" data-val="{movieId:837}">唐伯虎点秋香</a></p>
+        <p class="star">
+                主演：周星驰,巩俐,郑佩佩
+        </p>
+<p class="releasetime">上映时间：1993-07-01(中国香港)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">1</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-7">7</i>
+    <a href="/films/2760" title="魂断蓝桥" class="image-link" data-act="boarditem-click" data-val="{movieId:2760}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/46c29a8b8d8424bdda7715e6fd779c66235684.jpg@160w_220h_1e_1c" alt="魂断蓝桥" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/2760" title="魂断蓝桥" data-act="boarditem-click" data-val="{movieId:2760}">魂断蓝桥</a></p>
+        <p class="star">
+                主演：费雯·丽,罗伯特·泰勒,露塞尔·沃特森
+        </p>
+<p class="releasetime">上映时间：1940-05-17(美国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">2</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-8">8</i>
+    <a href="/films/7431" title="乱世佳人" class="image-link" data-act="boarditem-click" data-val="{movieId:7431}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/223c3e186db3ab4ea3bb14508c709400427933.jpg@160w_220h_1e_1c" alt="乱世佳人" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/7431" title="乱世佳人" data-act="boarditem-click" data-val="{movieId:7431}">乱世佳人</a></p>
+        <p class="star">
+                主演：费雯·丽,克拉克·盖博,奥利维娅·德哈维兰
+        </p>
+<p class="releasetime">上映时间：1939-12-15(美国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">1</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-9">9</i>
+    <a href="/films/1228" title="天空之城" class="image-link" data-act="boarditem-click" data-val="{movieId:1228}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p1.meituan.net/movie/ba1ed511668402605ed369350ab779d6319397.jpg@160w_220h_1e_1c" alt="天空之城" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/1228" title="天空之城" data-act="boarditem-click" data-val="{movieId:1228}">天空之城</a></p>
+        <p class="star">
+                主演：寺田农,鹫尾真知子,龟山助清
+        </p>
+<p class="releasetime">上映时间：1992-05-01</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">0</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-10">10</i>
+    <a href="/films/3667" title="辛德勒的名单" class="image-link" data-act="boarditem-click" data-val="{movieId:3667}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/b0d986a8bf89278afbb19f6abaef70f31206570.jpg@160w_220h_1e_1c" alt="辛德勒的名单" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/3667" title="辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+霸王别姬" data-act="boarditem-click" data-val="{movieId:1203}">霸王别姬</a></p>
+        <p class="star">
+                主演：张国荣,张丰毅,巩俐
+        </p>
+<p class="releasetime">上映时间：1993-07-26</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-2">2</i>
+    <a href="/films/1297" title="肖申克的救赎" class="image-link" data-act="boarditem-click" data-val="{movieId:1297}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/283292171619cdfd5b240c8fd093f1eb255670.jpg@160w_220h_1e_1c" alt="肖申克的救赎" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/1297" title="肖申克的救赎" data-act="boarditem-click" data-val="{movieId:1297}">肖申克的救赎</a></p>
+        <p class="star">
+                主演：蒂姆·罗宾斯,摩根·弗里曼,鲍勃·冈顿
+        </p>
+<p class="releasetime">上映时间：1994-09-10(加拿大)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-3">3</i>
+    <a href="/films/2641" title="罗马假日" class="image-link" data-act="boarditem-click" data-val="{movieId:2641}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/289f98ceaa8a0ae737d3dc01cd05ab052213631.jpg@160w_220h_1e_1c" alt="罗马假日" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/2641" title="罗马假日" data-act="boarditem-click" data-val="{movieId:2641}">罗马假日</a></p>
+        <p class="star">
+                主演：格利高里·派克,奥黛丽·赫本,埃迪·艾伯特
+        </p>
+<p class="releasetime">上映时间：1953-09-02(美国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">1</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-4">4</i>
+    <a href="/films/4055" title="这个杀手不太冷" class="image-link" data-act="boarditem-click" data-val="{movieId:4055}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p1.meituan.net/movie/6bea9af4524dfbd0b668eaa7e187c3df767253.jpg@160w_220h_1e_1c" alt="这个杀手不太冷" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/4055" title="这个杀手不太冷" data-act="boarditem-click" data-val="{movieId:4055}">这个杀手不太冷</a></p>
+        <p class="star">
+                主演：让·雷诺,加里·奥德曼,娜塔莉·波特曼
+        </p>
+<p class="releasetime">上映时间：1994-09-14(法国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-5">5</i>
+    <a href="/films/267" title="泰坦尼克号" class="image-link" data-act="boarditem-click" data-val="{movieId:267}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p1.meituan.net/movie/b607fba7513e7f15eab170aac1e1400d878112.jpg@160w_220h_1e_1c" alt="泰坦尼克号" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/267" title="泰坦尼克号" data-act="boarditem-click" data-val="{movieId:267}">泰坦尼克号</a></p>
+        <p class="star">
+                主演：莱昂纳多·迪卡普里奥,凯特·温丝莱特,比利·赞恩
+        </p>
+<p class="releasetime">上映时间：1998-04-03</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-6">6</i>
+    <a href="/films/837" title="唐伯虎点秋香" class="image-link" data-act="boarditem-click" data-val="{movieId:837}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/da64660f82b98cdc1b8a3804e69609e041108.jpg@160w_220h_1e_1c" alt="唐伯虎点秋香" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/837" title="唐伯虎点秋香" data-act="boarditem-click" data-val="{movieId:837}">唐伯虎点秋香</a></p>
+        <p class="star">
+                主演：周星驰,巩俐,郑佩佩
+        </p>
+<p class="releasetime">上映时间：1993-07-01(中国香港)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">1</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-7">7</i>
+    <a href="/films/2760" title="魂断蓝桥" class="image-link" data-act="boarditem-click" data-val="{movieId:2760}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/46c29a8b8d8424bdda7715e6fd779c66235684.jpg@160w_220h_1e_1c" alt="魂断蓝桥" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/2760" title="魂断蓝桥" data-act="boarditem-click" data-val="{movieId:2760}">魂断蓝桥</a></p>
+        <p class="star">
+                主演：费雯·丽,罗伯特·泰勒,露塞尔·沃特森
+        </p>
+<p class="releasetime">上映时间：1940-05-17(美国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">2</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-8">8</i>
+    <a href="/films/7431" title="乱世佳人" class="image-link" data-act="boarditem-click" data-val="{movieId:7431}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/223c3e186db3ab4ea3bb14508c709400427933.jpg@160w_220h_1e_1c" alt="乱世佳人" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/7431" title="乱世佳人" data-act="boarditem-click" data-val="{movieId:7431}">乱世佳人</a></p>
+        <p class="star">
+                主演：费雯·丽,克拉克·盖博,奥利维娅·德哈维兰
+        </p>
+<p class="releasetime">上映时间：1939-12-15(美国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">1</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-9">9</i>
+    <a href="/films/1228" title="天空之城" class="image-link" data-act="boarditem-click" data-val="{movieId:1228}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p1.meituan.net/movie/ba1ed511668402605ed369350ab779d6319397.jpg@160w_220h_1e_1c" alt="天空之城" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/1228" title="天空之城" data-act="boarditem-click" data-val="{movieId:1228}">天空之城</a></p>
+        <p class="star">
+                主演：寺田农,鹫尾真知子,龟山助清
+        </p>
+<p class="releasetime">上映时间：1992-05-01</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">0</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-10">10</i>
+    <a href="/films/3667" title="辛德勒的名单" class="image-link" data-act="boarditem-click" data-val="{movieId:3667}">
+      <img src="//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:5788b470/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p0.meituan.net/movie/b0d986a8bf89278afbb19f6abaef70f31206570.jpg@160w_220h_1e_1c" alt="辛德勒的名单" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/3667" title="辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+霸王别姬	主演：张国荣,张丰毅,巩俐	1993-07-26
+肖申克的救赎	主演：蒂姆·罗宾斯,摩根·弗里曼,鲍勃·冈顿	1994-09-10
+罗马假日	主演：格利高里·派克,奥黛丽·赫本,埃迪·艾伯特	1953-09-02
+这个杀手不太冷	主演：让·雷诺,加里·奥德曼,娜塔莉·波特曼	1994-09-14
+泰坦尼克号	主演：莱昂纳多·迪卡普里奥,凯特·温丝莱特,比利·赞恩	1998-04-03
+唐伯虎点秋香	主演：周星驰,巩俐,郑佩佩	1993-07-01
+魂断蓝桥	主演：费雯·丽,罗伯特·泰勒,露塞尔·沃特森	1940-05-17
+乱世佳人	主演：费雯·丽,克拉克·盖博,奥利维娅·德哈维兰	1939-12-15
+天空之城	主演：寺田农,鹫尾真知子,龟山助清	1992-05-01
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+霸王别姬	主演：张国荣,张丰毅,巩俐	1993-07-26
+肖申克的救赎	主演：蒂姆·罗宾斯,摩根·弗里曼,鲍勃·冈顿	1994-09-10
+罗马假日	主演：格利高里·派克,奥黛丽·赫本,埃迪·艾伯特	1953-09-02
+这个杀手不太冷	主演：让·雷诺,加里·奥德曼,娜塔莉·波特曼	1994-09-14
+泰坦尼克号	主演：莱昂纳多·迪卡普里奥,凯特·温丝莱特,比利·赞恩	1998-04-03
+唐伯虎点秋香	主演：周星驰,巩俐,郑佩佩	1993-07-01
+魂断蓝桥	主演：费雯·丽,罗伯特·泰勒,露塞尔·沃特森	1940-05-17
+乱世佳人	主演：费雯·丽,克拉克·盖博,奥利维娅·德哈维兰	1939-12-15
+天空之城	主演：寺田农,鹫尾真知子,龟山助清	1992-05-01
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+霸王别姬	主演：张国荣,张丰毅,巩俐	1993-07-26
+肖申克的救赎	主演：蒂姆·罗宾斯,摩根·弗里曼,鲍勃·冈顿	1994-09-10
+罗马假日	主演：格利高里·派克,奥黛丽·赫本,埃迪·艾伯特	1953-09-02
+这个杀手不太冷	主演：让·雷诺,加里·奥德曼,娜塔莉·波特曼	1994-09-14
+泰坦尼克号	主演：莱昂纳多·迪卡普里奥,凯特·温丝莱特,比利·赞恩	1998-04-03
+唐伯虎点秋香	主演：周星驰,巩俐,郑佩佩	1993-07-01
+魂断蓝桥	主演：费雯·丽,罗伯特·泰勒,露塞尔·沃特森	1940-05-17
+乱世佳人	主演：费雯·丽,克拉克·盖博,奥利维娅·德哈维兰	1939-12-15
+天空之城	主演：寺田农,鹫尾真知子,龟山助清	1992-05-01
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+霸王别姬	主演：张国荣,张丰毅,巩俐	1993-07-26
+肖申克的救赎	主演：蒂姆·罗宾斯,摩根·弗里曼,鲍勃·冈顿	1994-09-10
+罗马假日	主演：格利高里·派克,奥黛丽·赫本,埃迪·艾伯特	1953-09-02
+这个杀手不太冷	主演：让·雷诺,加里·奥德曼,娜塔莉·波特曼	1994-09-14
+泰坦尼克号	主演：莱昂纳多·迪卡普里奥,凯特·温丝莱特,比利·赞恩	1998-04-03
+唐伯虎点秋香	主演：周星驰,巩俐,郑佩佩	1993-07-01
+魂断蓝桥	主演：费雯·丽,罗伯特·泰勒,露塞尔·沃特森	1940-05-17
+乱世佳人	主演：费雯·丽,克拉克·盖博,奥利维娅·德哈维兰	1939-12-15
+天空之城	主演：寺田农,鹫尾真知子,龟山助清	1992-05-01
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+霸王别姬	主演：张国荣,张丰毅,巩俐	1993-07-26
+肖申克的救赎	主演：蒂姆·罗宾斯,摩根·弗里曼,鲍勃·冈顿	1994-09-10
+罗马假日	主演：格利高里·派克,奥黛丽·赫本,埃迪·艾伯特	1953-09-02
+这个杀手不太冷	主演：让·雷诺,加里·奥德曼,娜塔莉·波特曼	1994-09-14
+泰坦尼克号	主演：莱昂纳多·迪卡普里奥,凯特·温丝莱特,比利·赞恩	1998-04-03
+唐伯虎点秋香	主演：周星驰,巩俐,郑佩佩	1993-07-01
+魂断蓝桥	主演：费雯·丽,罗伯特·泰勒,露塞尔·沃特森	1940-05-17
+乱世佳人	主演：费雯·丽,克拉克·盖博,奥利维娅·德哈维兰	1939-12-15
+天空之城	主演：寺田农,鹫尾真知子,龟山助清	1992-05-01
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15
+霸王别姬	主演：张国荣,张丰毅,巩俐	1993-07-26
+肖申克的救赎	主演：蒂姆·罗宾斯,摩根·弗里曼,鲍勃·冈顿	1994-09-10
+罗马假日	主演：格利高里·派克,奥黛丽·赫本,埃迪·艾伯特	1953-09-02
+这个杀手不太冷	主演：让·雷诺,加里·奥德曼,娜塔莉·波特曼	1994-09-14
+泰坦尼克号	主演：莱昂纳多·迪卡普里奥,凯特·温丝莱特,比利·赞恩	1998-04-03
+唐伯虎点秋香	主演：周星驰,巩俐,郑佩佩	1993-07-01
+魂断蓝桥	主演：费雯·丽,罗伯特·泰勒,露塞尔·沃特森	1940-05-17
+乱世佳人	主演：费雯·丽,克拉克·盖博,奥利维娅·德哈维兰	1939-12-15
+天空之城	主演：寺田农,鹫尾真知子,龟山助清	1992-05-01
+辛德勒的名单	主演：连姆·尼森,拉尔夫·费因斯,本·金斯利	1993-12-15

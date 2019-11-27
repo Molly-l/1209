@@ -1,0 +1,19 @@
+字符串:   -必须掌握
+1.设置一个k-v: set key value
+2. 获取key的值:  get key
+3. key不存在时再进行设置(nx):  set key value nx
+4. 设置过期时间(ex): set key value ex seconds
+5. 同时设置多个key-value: mset key1 value1 key2 value2 key3 value3
+6. 同时获取多个key-value: mget key1 key2 key3
+
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+setbit a 1 1
+01000000
+setbit a 6 1
+01000010
+setbit a 99 1
+2
+fruit:{ orange:10 }
+food:{ fruit:orange }
+

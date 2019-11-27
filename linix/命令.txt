@@ -1,0 +1,92 @@
+端口号： mysql:3306
+        redis:6379
+        http:默认80
+        https：443
+        django开启http默认的服务端口：8000
+        mango:
+        ftp:21
+        ssh:22
+
+
+
+vi:
+    sudo vi 文件名
+    命令模式：：set number 显示行
+            ：wq 保存并退出
+            dd 删除当前行
+            数字d 删除当前行以及后面多行
+            数字dd 删除当前行外以后多行
+            u 撤回
+            数字G/：数字  光标移动到多少行
+            rm -r *.jpg：删除以.jpg结尾的(必须在该文件夹打开终端)
+    编辑模式：a/i 插入
+
+            Esc 退出编辑模式
+
+
+
+Ctrl+c:本行输入作废，终端运行程序终止，端口会释放
+Ctrl+z:终端运行程序挂起，端口不会释放
+
+
+Ubuntu
+1 # 安装： sudo apt-get install (mysql/redis-server/...)
+  # python的组件或模块安装： pip3 install (django/ajax/flask...)
+
+3 # 服务端启动
+4 sudo /etc/init.d/redis-server  status| start | stop | restart(查看状态/开始/结束/重启)
+
+配置文件所在路径:  vi /etc/redis/redis.conf (vi：路径下的文件打开编辑)
+mysql的配置文件在哪里? : /etc/mysql/mysql.conf .d/mysqld.cnf
+设置连接密码:  requirepass 密码
+
+(对配置文件修改后必须)重启服务:  sudo /etc/init.d/redis-server restart
+客户端连接：1.redis-cli -h 127.0.0.1 -p 6379 -a 密码
+            127.0.0.1:6379>ping
+          2.mysql -h127.0.0.1 -uroot -p
+
+允许远程连接：
+    1、注释掉本地IP地址绑定：  69行: # bind 127.0.0.1 ::1
+    2、关闭保护模式(把yes改为no)：  88行: protected-mode no
+    3、重启服务：  sudo /etc/init.d/redis-server restart
+
+远程连接测试
+Windows连接Ubuntu的Redis服务
+# cmd命令行(windows终端)
+1、e:
+2、cd Redis3.0
+3、redis-cli -h x.x.x.x -a 123456
+4、x.x.x.x:6379>ping
+
+
+
+
+
+Windows
+1、下载安装包:   https://github.com/ServiceStack/redis-windows/blob/master/downloads/redis-64.3.0.503.zip
+ 2、解压
+ 3、启动服务端  双击解压后的 redis-server.exe
+4、客户端连接  双击解压后的 redis-cli.exe
+
+# Windows下产生的问题:关闭终端后服务终止
+# 解决方案:将Redis服务安装到本地服务
+    1、重命名 redis.windows.conf 为 redis.conf,作为redis服务的配置文件
+    2、cmd命令行,进入到redis-server.exe所在目录
+    3、执行:redis-server --service-install redis.conf --loglevel verbose
+    4、计算机-管理-服务-Redis-启动
+16 # 卸载
+    到 redis-server.exe 所在路径执行:
+    1、redis-server --service-uninstall
+    2、sc delete Redis
+
+windows 下载解压后的redis文件夹中 redis.windows.conf
+7 redis.conf
+
+
+#分布式锁： set 要加锁的对象 nx ex 设置过期时间
+#查看进程： ps aux|grep ‘进程关键字’
+#杀死进程： sudo kill -9 进程端口号(系统分配的)
+
+
+
+ssh命令
